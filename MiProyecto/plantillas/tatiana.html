@@ -8,7 +8,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=opera">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gelmar Electrodomesticos</title>
+    <title>Gelmar Electrodomésticos</title>
     <link rel="stylesheet" href= {% static "css/tatiana.css" %}>
     <link rel="stylesheet" href= {% static "css/estilos.css" %}> 
      <!-- bootstrap linked-->
@@ -34,7 +34,7 @@
     <header>
 
         <div class="container">
-            <p class="logo">Electrodomesticos GELMAR</p>
+            <p class="logo">Electrodomésticos GELMAR</p>
 
             <nav>
 
@@ -48,7 +48,7 @@
 
                 {% else %} 
                 <a href="#somos-gelmar">Sobre Nosotros</a>
-                <a href="#contactenos">Contactanos</a>
+                <a href="#contactenos">Contáctanos</a>
                 <a href ="/productos">Nuestros Productos</a> 
                 <a href=" {% url 'login' %}">Iniciar Sesión</a>
                 <a href="{% url 'registro' %}">Registrase</a>
@@ -76,11 +76,11 @@
         <h1 class="title">Sobre Nosotros</h1> 
         <div class="container">
             <div class="image2">              
-               <img  src={% static "img_tatiana/imagen2.jpg" %}  alt="">
+               <img src={% static "img_tatiana/imagen2.jpg" %}  alt="Misión y Visión de la empresa.">
                 </div>
             <div class="content">
                 <h3>NUESTRA MISIÓN:</h3>
-                <p> Ser parte del embellecimiento y confort de cada hogar, ofreciendo los mejores electrdomesticos de alta calidad que satisfagan las necesidades de nuestros clientes, con el buen servicio avalado por la capacidad y experiencia de nustros colaboradores.</p>
+                <p> Ser parte del embellecimiento y confort de cada hogar, ofreciendo los mejores electrodomésticos de alta calidad que satisfagan las necesidades de nuestros clientes, con el buen servicio avalado por la capacidad y experiencia de nuestros colaboradores.</p>
                 <h3>NUESTRA VISIÓN:</h3>
                 <p> Ser reconocida a nivel nacional en cada hogar y de la misma manera ofrecer servicios de un alto nivel de calidad desde nuestros colaboradores a nuestros clientes.</p>
             </div> 
@@ -95,43 +95,43 @@
             <div class="tarjeta">
                 <div class="card">
                     <figure>
-                        <img src={% static "img_tatiana/4QEXSUD65VCUNJWMSOPZQXXYQI.jpg" %}>
+                        <img src={% static "img_tatiana/4QEXSUD65VCUNJWMSOPZQXXYQI.jpg" %} alt="Venta de Televisores">
                     </figure>
             <div class="contenido-card">
                 <h3>Televisores</h3>
-                <p>Podras encontrar las mejores marcas y calidad en nuestros Televisores.</p>
+                <p>Podrás encontrar las mejores marcas y calidad en nuestros Televisores.</p>
                 {% if request.user.is_authenticated %}
-                <a href="/televisores">Mas Informacion</a>
+                <a href="/televisores">Más Información</a>
                 {% else %} 
-                <a href="/login">Mas Informacion</a>
+                <a href="/login">Más Información</a>
                 {% endif %}
             </div>
         </div>
         <div class="card">
             <figure>
-                <img src={% static "img_tatiana/elec.jpg" %}>
+                <img src={% static "img_tatiana/elec.jpg" %} alt="Venta de electrodomésticos para el hogar">
             </figure>
             <div class="contenido-card">
                 <h3>Electrodomésticos</h3>
-                <p>Nuestros electrodomesticos cuentan con la mayor calidad.</p>
+                <p>Nuestros electrodomésticos cuentan con la mayor calidad.</p>
                 {% if request.user.is_authenticated %}
-                <a href="/electrodomesticos">Mas Informacion</a>
+                <a href="/electrodomesticos">Más Información</a>
                 {% else %} 
-                <a href="/login">Mas Informacion</a>
+                <a href="/login">Más Información</a>
                 {% endif %}
             </div>
         </div>
         <div class="card">
             <figure>
-                <img src={% static "img_tatiana/sonido.jpg" %}>
+                <img src={% static "img_tatiana/sonido.jpg" %} alt="Venta de equipos de sonido">
             </figure>
-            <div class="contenido-card">
+            <div class="contenido-card">                  
                 <h3>Equipos de Sonido</h3>
-                <p>Aqui encontraras el mejor sonido para disfrurar en tu hogar.</p>
+                <p>Aquí encontrarás el mejor sonido para disfrurar en tu hogar.</p>
                 {% if request.user.is_authenticated %}
-                <a href="/equipoSonido">Mas Informacion</a>
+                <a href="/equipoSonido">Más Información</a>
                 {% else %} 
-                <a href="/login">Mas Informacion</a>
+                <a href="/login">Más Información</a>
                 {% endif %}
             </div>
         </div>
@@ -145,12 +145,12 @@
 
     <section id="contactenos">
         <div class="contactenos">
-            <h2>Contactanos</h2>
+            <h2>Contáctanos</h2>
             <ul>
-                <li>☑️ Distribuidores Directos De Fabrica</li>
+                <li>☑️ Distribuidores Directos De Fábrica</li>
                 <li>☑️ 100% Calidad</li>
                 <li>🗺️​ Cra 13 # 15-59</li>
-                <li>🏙️​ Bogota-Colombia</li>
+                <li>🏙️​ Bogotá-Colombia</li>
                 <li>☎️ 3423642</li>
                 <li>📧​ gelmarelectrodomesticos@gmail.com</li>
                 <li>💲 Los Mejores Precios En El Mercado</li>
@@ -169,7 +169,7 @@
 
     <section id="redes-sociales">
         <div class="redes">
-            <h2> Siguenos en :</h2>
+            <h2> Síguenos en:</h2>
             <ul>
                 <li>
                     <a href="https://www.facebook.com/profile.php?id=100082377722169" target="_blank">
@@ -177,14 +177,14 @@
                          
                     </a>
 
-                    <a href="https://www.facebook.com/profile.php?id=100082377722169" target="_blank"> <p id="red-social"> Nuestra página de facebook  </p></a>
+                    <a href="https://www.facebook.com/profile.php?id=100082377722169" target="_blank"> <p id="red-social"> Nuestra página de Facebook  </p></a>
                 </li>
 
                 <li>
                     <a href="https://www.instagram.com/gelmarelectro19/" target="_blank">
                         <img class="red-social" src="https://i.blogs.es/c04a74/instagram/1366_2000.jpg" width="70" height="50">
                     </a>
-                    <a href="https://www.instagram.com/gelmarelectro19/" target="_blank"> <p id="red-social"> Nuestra página de instagram </p></a>
+                    <a href="https://www.instagram.com/gelmarelectro19/" target="_blank"> <p id="red-social"> Nuestra página de Instagram </p></a>
                 </li>    
             </ul>
         </div>
@@ -199,7 +199,7 @@
 
     <section id="footer">
         <footer>
-            <p>&copy;GelmarElectrodomesticos 2022</p>
+            <p>&copy;GelmarElectrodomésticos 2022</p>
         </footer>    
 
     </section>

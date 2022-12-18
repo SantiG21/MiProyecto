@@ -26,23 +26,23 @@
     </header>
     
     <div class="contenedor">
-        <h2>Iniciar Sesion</h2>
+        <h2>Iniciar Sesión</h2>
         <form enctype="multipart/form-data" method="POST" action="">
             <div class="elemento">
                 {% csrf_token %}
                 {{form}}
                 <div class="elemento2">
                     <form action="/registro">
-                        <input type="submit" value=" Iniciar Sesion">
+                        <input type="submit" value=" Iniciar Sesión">
                     </form>
                 </div>
             </div>
             <br>
             <div class="olvido">
-              <p><a href="{% url 'password_reset' %}">¿Olvido su Contraseña? Recuperala</a></p>
+              <p><a href="{% url 'password_reset' %}">¿Olvidó su Contraseña? Recupérala</a></p>
             </div>
             <div class="olvido">
-                <p><a href= "{% url 'registro' %}">¿ No tiene Cuenta ? Registrese </a></p>
+                <p><a href= "{% url 'registro' %}">¿No tiene Cuenta? Regístrese </a></p>
               </div>
     
            
@@ -54,7 +54,7 @@
 
     <section id="footer">
         <footer>
-            <p>&copy;GelmarElectrodomesticos 2022</p>
+            <p>&copy;GelmarElectrodomésticos 2022</p>
         </footer>    
 
     </section>
